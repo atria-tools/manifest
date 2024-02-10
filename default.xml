@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="origin" fetch="../../">
+		<mirror name="github" fetch="https://github.com/"/>
+		<mirror name="github_ssh" fetch="git@github.com/"/>
+	</remote>
+	<option>
+		<branch-release>main</branch-release>
+		<branch-develop>develop</branch-develop>
+		<default-branch>develop</default-branch>
+		<default-remote>origin</default-remote>
+		<synchronize-submodule>true</synchronize-submodule>
+	</option>
+	<project name="atria-tools/island.git"    path="island"/>
+	<project name="atria-tools/lutin.git"     path="lutin"/>
+	<project name="atria-tools/estyle.git"    path="estyle"/>
+	<project name="atria-tools/monk.git"      path="monk"/>
+	<project name="atria-tools/doxy.git"      path="doxy"/>
+	<project name="atria-tools/prude.git"     path="prude"/>
+	<project name="atria-tools/death.git"     path="death"/>
+	<project name="atria-tools/qworktree.git" path="qworktree"/>
+	<project name="atria-tools/realog.git"    path="realog"/>
+	<!-- Create some tooling elements -->
+	<link source=".island/manifest/README.md" destination="README.md"/>
+</manifest>
