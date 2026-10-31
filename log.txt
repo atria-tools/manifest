@@ -6,3 +6,4 @@
 - README.md : commandes island init vers github.com.
 - Reste à faire : atria-tools/manifest n'existe pas sur GitHub, ce commit n'est
   donc pas poussé.
+2026-10-31 atria-tools/manifest créé sur GitHub (public) et poussé, l'étape restante ci-dessus est faite.
