@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="origin" fetch="../../">
-		<mirror name="github" fetch="https://github.com/"/>
-		<mirror name="github_ssh" fetch="git@github.com/"/>
-	</remote>
+	<remote name="origin" fetch="../../"/>
 	<option>
-		<branch-release>main</branch-release>
-		<branch-develop>develop</branch-develop>
-		<default-branch>develop</default-branch>
+		<branch-release>master</branch-release>
+		<branch-develop>dev</branch-develop>
+		<default-branch>dev</default-branch>
 		<default-remote>origin</default-remote>
 		<synchronize-submodule>true</synchronize-submodule>
 	</option>

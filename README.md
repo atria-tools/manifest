@@ -13,7 +13,7 @@ Create the tree:
 ```{.sh}
 mkdir atria_tools
 cd atria_tools
-island init https://gitea.atria-soft.org/atria-tools/manifest.git
+island init https://github.com/atria-tools/manifest.git
 island sync
 cd ..
 ```
@@ -21,7 +21,7 @@ cd ..
 ```{.sh}
 mkdir atria_tools
 cd atria_tools
-island init git@gitea.atria-soft.org:atria-tools/manifest.git
+island init git@github.com:atria-tools/manifest.git
 island sync
 cd ..
 ```

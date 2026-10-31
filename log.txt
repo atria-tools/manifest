@@ -1,0 +1,8 @@
+2026-10-31 Passage du manifeste sur GitHub (gitea.atria-soft.org ne résout plus en DNS).
+- default.xml : retrait des mirror github et github_ssh, origin devient le seul remote.
+  fetch="../../" est conservé : il se résout depuis l'URL d'origin du manifeste.
+- default.xml : branches alignées sur GitHub, branch-release=master,
+  branch-develop=dev, default-branch=dev (main/develop n'existent pas partout).
+- README.md : commandes island init vers github.com.
+- Reste à faire : atria-tools/manifest n'existe pas sur GitHub, ce commit n'est
+  donc pas poussé.
